@@ -1,203 +1,229 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"/>
-    <title>Project 15 - Product Landing Page</title>
-  </head>
-  <body>
-    <div class="main-container">
+    <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Product Landing Page</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    </head>
+    <body>
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo-container">
+                    <img src="assets/logo.svg" alt="logo">
+                </div>
+                <ul class="list">
+                    <li>Home</li>
+                    <li>Project</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Other Page</li>
+                </ul>
+            </nav>
 
-      <nav>
-        <div class="logo-container">
-          <img src="./assets/logo.svg" alt="" />
+
+            <div class="hero">
+                <div class="left-image">
+                    <img src="assets/images/img.png" alt="img">
+                </div>
+                <div class="right-headline">
+                    <h4>Hello I'm Arthur</h4>
+                    <h1>Visual Designer</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        <br>
+                        Explicabo delectus numquam quam incidunt? Eius <br>
+                        Suscipit, provident! consectetur adipisicing
+                    </p>
+                    <button class="btn">About Me</button>
+                </div>
+                <div class="box"></div>
+            </div>
+
+
+            <div class="serveice-section">
+                <div class="service-cards">
+
+                  <div class="service-card">
+                        <div class="logo">
+                            <img src="assets/ui.svg" alt="ui">
+                        </div>
+                        <h1>UI Design</h1>
+                        <p>
+                            Lorem ipsum dolor sit <br>
+                            amet consectetur <br>
+                            adipisicing elit.
+                        </p>
+
+                        <div class="service-btn">
+                            <button class="btn">Know More</button>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="logo">
+                            <img src="assets/product.svg" alt="product">
+                        </div>
+                        <h1>UI Design</h1>
+                        <p>
+                            Lorem ipsum dolor sit <br>
+                            amet consectetur <br>
+                            adipisicing elit.
+                        </p>
+
+                        <div class="service-btn">
+                            <button class="btn">Know More</button>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="logo">
+                            <img src="assets/branding.svg" alt="branding">
+                        </div>
+                        <h1>UI Design</h1>
+                        <p>
+                            Lorem ipsum dolor sit <br>
+                            amet consectetur <br>
+                            adipisicing elit.
+                        </p>
+
+                        <div class="service-btn">
+                            <button class="btn">Know More</button>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-stats">
+                    <div class="left">
+                        <h1>12</h1>
+                        <p>Years Experience</p>
+                    </div>
+                    <div class="right">
+                        <div class="card">
+                            <h1>60+</h1>
+                            <p>Clients</p>
+                        </div>
+                        <div class="card">
+                            <h1>08</h1>
+                            <p>Years Experience</p>
+                        </div>
+                        <div class="card">
+                            <h1>122+</h1>
+                            <p>Projects</p>
+                        </div>
+                        <div class="card">
+                            <h1>10</h1>
+                            <p>Achievments</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="featured-projects">
+                <div class="project-headline">
+                    <div class="headline-left">
+                        <h1>Featured Projects</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit.
+                        </p>
+                    </div>
+                    <div class="headline-right">
+                        <button>View All</button>
+                    </div>
+                </div>
+
+                <div class="project-cards">
+
+                  <div class="project-card">
+                        <div class="project-img">
+                            <img src="assets/images/img1.jpg" alt="img1">
+                        </div>
+                        <h1>The Vintage</h1>
+                        <span class="proj-btn-container">
+                            <button class="proj-btn">Know More</button>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </span>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-img">
+                            <img src="assets/images/img2.jpg" alt="img2">
+                        </div>
+                        <h1>Foodasa</h1>
+                        <span class="proj-btn-container">
+                            <button class="proj-btn">Know More</button>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </span>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-img">
+                            <img src="assets/images/img3.jpg" alt="img3">
+                        </div>
+                        <h1>Macro Accent</h1>
+                        <span class="proj-btn-container">
+                            <button class="proj-btn">Know More</button>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </span>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-img">
+                            <img src="assets/images/img4.jpg" alt="img4">
+                        </div>
+                        <h1>Mozaik</h1>
+                        <span class="proj-btn-container">
+                            <button class="proj-btn">Know More</button>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-section">
+                <div class="contact-card">
+                    <div class="left">
+                        <h1>
+                            Let's work together on <br>
+                            your next project.
+                        </h1>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. <br>
+                            Alias, dolores. amet consectetur adipisicing
+                        </p>
+                    </div>
+                    <div class="right">
+                        <button class="contact-btn">Contact</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-nav">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Projects</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+
+            <footer class="footer-wrapper">
+                <div class="footer">
+                    <img src="assets/logo.svg" alt="logo">
+                </div>
+                <div class="social-icons">
+                    <img src="assets/fb.svg" alt="facebook">
+                    <img src="assets/twitter.svg" alt="twitter">
+                    <img src="assets/youtube.svg" alt="youtube">
+                </div>
+            </footer>
         </div>
-        <ul class="nav-links">
-          <li class="nav-link">HOME</li>
-          <li class="nav-link">PROJECT</li>
-          <li class="nav-link">ABOUT</li>
-          <li class="nav-link">CONTACT</li>
-          <li class="nav-link">OTHER PAGE</li>
-        </ul>
-      </nav>
-
-      <div class="hero-container">
-        <div class="left">
-          <img src="./assets/images/img.png" alt="Visual Designer" />
-        </div>
-        <div class="right">
-          <p class="hello-text">Hello I'm Arthur</p>
-          <h1 class="heading-text">Visual Designer</h1>
-          <p class="description">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam porro consequuntur voluptatum aliquid, quas optio quisquam, ex corporis, asperiores enim hic tempora nobis. Nisi cumque harum veniam, dignissimos impedit at..
-          </p>
-          <button class="main-btn hero-btn">ABOUT ME</button>
-        </div>
-      </div>
-<div class="outer-container">
-    <div class="showcase-container">
-        <div class="top-showcase">
-          <div class="card">
-            <img src="assets/ui.svg" alt="">
-            <h1 class="title">UI Design</h1>
-            <p class="description">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem minus illo praesentium consequatur ut beatae. Ipsam expedita eveniet cumque reprehenderit, numquam cupiditate ut vel dignissimos deleniti! Molestiae error id ipsum.
-            </p>
-            <button class="know-more">
-              KNOW MORE <span class="arrow-icon"></span>
-            </button>
-            <i class="fa-solid fa-arrow-right"></i>
-          </div>
-
-          <div class="card red-card">
-            <div class="icon">
-              <img width="64" src="./assets/product.svg" alt="" />
-            </div>
-            <h1 class="title">Product Design</h1>
-            <p class="description">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem minus illo praesentium consequatur ut beatae. Ipsam expedita eveniet cumque reprehenderit, numquam cupiditate ut vel dignissimos deleniti! Molestiae error id ipsum.
-            </p>
-            <button class="know-more">
-              KNOW MORE <span class="arrow-icon"></span>
-            </button>
-            <i class="fa-solid fa-arrow-right"></i>
-          </div>
-
-          <div class="card">
-            <div class="icon"><img src="./assets/branding.svg" alt="" /></div>
-            <h1 class="title">Branding</h1>
-            <p class="description">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem minus illo praesentium consequatur ut beatae. Ipsam expedita eveniet cumque reprehenderit, numquam cupiditate ut vel dignissimos deleniti! Molestiae error id ipsum.
-            </p>
-            <button class="know-more">
-              KNOW MORE <span class="arrow-icon"></span>
-            </button>
-            <i class="fa-solid fa-arrow-right"></i>
-          </div>
-         </div>
-    
-         <div class="bottom-showcase">
-          <div class="first-item">
-            <p class="experience-years">12</p>
-            <p class="experience-title">Years Experience</p>
-          </div>
-
-          <div class="card-container">
-            <div class="card showcase-card">
-              <p class="count">60+</p>
-              <p class="description">Clients</p>
-            </div>
-            <div class="card showcase-card">
-              <p class="count">08</p>
-              <p class="description">Years Experience</p>
-            </div>
-            <div class="card showcase-card">
-              <p class="count">122+</p>
-              <p class="description">Completed Projects</p>
-            </div>
-            <div class="card showcase-card">
-              <p class="count">10</p>
-              <p class="description">Achievments</p>
-            </div>
-          </div>
-         </div>
-         </div>
-         </div>
-
-</div>
-
-          <div class="projects-container">
-         <div class="project-top">
-          <div class="project-top-left">
-            <h2 class="heading">FEATURED PROJECTS</h2>
-            <p class="description">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            </p>
-          </div>
-          <div class="project-top-right">
-            <button class="main-btn">VIEW ALL</button>
-          </div>
-          </div>
-
-          <div class="projects">
-          <div class="project">
-            <div class="project-img-container card">
-              <img src="./assets/images/img1.jpg" alt="" />
-            </div>
-
-            <p class="project-title">The Vintage</p>
-            <button class="know-more">KNOW MORE</button>
-          </div>
-          <div class="project">
-            <div class="project-img-container card">
-              <img src="./assets/images/img2.jpg" alt="" />
-            </div>
-
-            <p class="project-title">Foodasa</p>
-            <button class="know-more">KNOW MORE</button>
-          </div>
-          <div class="project">
-            <div class="project-img-container card">
-              <img src="./assets/images/img3.jpg" alt="" />
-            </div>
-
-            <p class="project-title">Macro Accent</p>
-            <button class="know-more">KNOW MORE</button>
-          </div>
-          <div class="project">
-            <div class="project-img-container card">
-              <img src="./assets/images/img4.jpg" alt="" />
-            </div>
-
-            <p class="project-title">Mozaik</p>
-            <button class="know-more">KNOW MORE</button>
-          </div>
-          </div>
-
-          <div class="letswork-container">
-          <div>
-            <p class="work-title">Let's work together on your next project</p>
-            <p class="description">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
-              debitis eligendi magnam architecto veritatis error earum illum
-              nobis libero ex.
-            </p>
-          </div>
-
-          <div>
-            <button class="main-btn">CONTACT</button>
-          </div>
-        </div>
-      </div>
-
-      <ul class="nav-links footer-links">
-        <li class="nav-link">HOME</li>
-        <li class="nav-link">PROJECT</li>
-        <li class="nav-link">ABOUT</li>
-        <li class="nav-link">CONTACT</li>
-      </ul>
-
-      <footer>
-        <div>
-          <img src="./assets/logo.svg" alt="" />
-        </div>
-
-        <div class="socials fb">
-          <div class="social">
-            <img src="./assets/fb.svg" alt="" />
-          </div>
-          <div class="social">
-            <img src="./assets/twitter.svg" alt="" />
-          </div>
-          <div class="social">
-            <img src="./assets/youtube.svg" alt="" />
-          </div>
-        </div>
-
-      </footer>
-    </div>
-  </body>
+    </body>
 </html>
